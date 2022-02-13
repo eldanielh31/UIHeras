@@ -32,7 +32,7 @@ const SearchContainer = styled.div`
   margin-left: 25px;
   padding: 5px;
 `
-const Input = styled.div`
+const Input = styled.input`
   border: none;
 `
 
