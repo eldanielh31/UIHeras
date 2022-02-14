@@ -21,3 +21,40 @@ export const sliderItems = [
         bg: "fbf0f4"
     }
 ]
+
+export const categories = [
+    {
+      id: 1,
+      img: "https://i.ibb.co/x1TLzxL/step1.jpg",
+      title: "T-SHIRT STEP1",
+    },
+    {
+      id: 2,
+      img: "https://i.ibb.co/0fBN0q3/heras-sweter.jpg",
+      title: "SWEATER HERAS",
+    },
+    {
+      id: 3,
+      img: "https://i.ibb.co/NrBNp0S/heras-tshirt.jpg",
+      title: "T-SHIRT HERAS",
+    },
+  ];
+
+  export const popularProducts = [
+    {
+      id:1,
+      img:"https://i.ibb.co/JzJJ1Pt/sweater1.png",
+    },
+    {
+      id:2,
+      img:"https://i.ibb.co/6P1wq35/sweater2.png",
+    },
+    {
+      id:3,
+      img:"https://i.ibb.co/sV1zXK1/sweater3.png",
+    },
+    {
+      id:4,
+      img:"https://i.ibb.co/kxPW2J8/sweater4.png",
+    },
+  ]
