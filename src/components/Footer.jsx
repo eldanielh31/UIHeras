@@ -19,7 +19,7 @@ const Desc = styled.p`
     margin: 20px 0px;
 `
 
-const SocialContainer = styled.h1`
+const SocialContainer = styled.div`
     display: flex;
 `
 

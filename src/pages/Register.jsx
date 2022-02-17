@@ -8,9 +8,9 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
-      center;
-  background-size: cover;
+    url("https://i.ibb.co/PmJNhy7/Register2.png")
+      right;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,12 +60,12 @@ const Register = () => {
       <Wrapper>
         <Title>CREAR UNA CUENTA.</Title>
         <Form>
-          <Input placeholder="name" />
-          <Input placeholder="last name" />
-          <Input placeholder="username" />
-          <Input placeholder="email" />
-          <Input placeholder="password" />
-          <Input placeholder="confirm password" />
+          <Input placeholder="Nombre" />
+          <Input placeholder="Apellidos" />
+          <Input placeholder="Usuario" />
+          <Input placeholder="Correo Electronico" />
+          <Input placeholder="Contraseña" />
+          <Input placeholder="Confirmar contraseña" />
           <Agreement>
             Al crear una cuenta, doy mi consentimiento para el procesamiento de mis datos personales.
             datos de acuerdo con el  <b>PRIVACY POLICY</b>

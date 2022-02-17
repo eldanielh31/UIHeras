@@ -8,9 +8,9 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    url("https://i.ibb.co/BcDRGpz/login2.png")
       center;
-  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,10 +63,10 @@ const Login = () => {
       <Wrapper>
         <Title>INICIAR SESIÓN</Title>
         <Form>
-          <Input placeholder="username" />
-          <Input placeholder="password" />
+          <Input placeholder="Usuario" />
+          <Input placeholder="Contraseña" />
           <Button>INICIAR SESIÓN</Button>
-          <Link>NO RECUERDA LA CONTRASEÑA?</Link>
+          <Link>OLVIDÓ LA CONTRASEÑA?</Link>
           <Link>CREAR CUENTA</Link>
         </Form>
       </Wrapper>
