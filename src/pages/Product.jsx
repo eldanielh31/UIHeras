@@ -150,6 +150,7 @@ const Product = () => {
   const handleClick = ()=>{
     console.log(color)
     console.log(size)
+    //actualizar carrito
   };
 
   return (
