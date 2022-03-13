@@ -38,7 +38,7 @@ const Products = ({cat, filters, sort}) => {
         item[key].includes(value)
       ))
     )
-  },[products, cat,filters]);
+  },[products, cat, filters]);
 
 //filtro tiempo
   useEffect(() => {
